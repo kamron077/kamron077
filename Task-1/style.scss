@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+
+
+    .navbar{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        background-color: #1534C3;
+
+        .nav{
+            width: 50%;
+            height: 100%;
+            
+
+            img{
+                width: 60px;
+                height: 40px;
+                margin-left: 150px;
+                margin-top: 20px;
+            }
+            h3{
+                font-weight: 300;
+                margin: -35px 220px;
+                color: white;
+            }
+        }
+        .nav-2{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            a{
+                color: white;
+                text-decoration: none;
+            }
+
+        }
+    }
+    .block{
+        width: 100%;
+        height: 300px;
+        background-color: #1534C3;
+        display: flex;
+            
+        h1{
+            color: white;
+            margin-top: 10px;
+            margin-left: 150px;
+        }
+         p{
+             margin-top: 10px;
+             margin-left: 150px;
+             color: white;
+         }
+        .box{
+            width: 60%;
+            height: 100%;
+        }
+        .box-2{
+            width: 40%;
+            height: 100%;
+            display: flex;
+
+            img{
+                width: 300px;
+                height: 200px;
+                border-radius: 10px;
+            }
+            .img-1{
+                margin-left: 100px;
+            }
+            .img-2{
+                margin-right: 100px;
+                position: absolute;
+                margin-top: 80px;
+            }
+        }
+    }
+    .card{
+        width: 100%;
+        height: 75px;
+        background-image: linear-gradient(#1534C3,white);
+        .card-2{
+            width: 60%;
+            height: 100%;
+            box-shadow: 0 2px 20px gray;
+            border-radius: 5px;
+            margin:auto;
+            background-color: white;
+          
+             .label-1{
+                 margin-top: 5px;
+                 margin-left: 20px;
+                 position: absolute;
+             }
+            .label{
+                width: 280px;
+                height: 35px;
+                margin-top: 10px;
+                margin-left: 20px;
+                border-radius: 5px;
+                border: 1px solid gray;
+            }
+            .label-2{
+                margin: -10px 20px;
+                position: absolute;
+            }
+            button{
+                width: 180px;
+                height: 45px;
+                font-size: 18px;
+                font-weight: 600;
+                border-radius: 5px;
+                border: none;
+                background-color: #FFD648;
+                box-shadow: 0 0 10px #FFD648;
+                margin-left: 80px;
+                position: absolute;
+            }
+        }
+    }
+    .text{
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        margin-top: 20px;
+
+        a{
+            text-decoration: none;
+            font-size: 17px;
+             margin: 20px 10px;
+             color: black;
+             transition: .6s;
+             &:hover{
+                 border-bottom:1px solid black;
+             }
+        }
+    }
+    .card-group{
+        width: 100%;
+        height: 350px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 100px;
+        .card-1{
+            width: 23%;
+            height: 100%;
+            background-color:white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+         
+
+            img{
+                width: 90%;
+                height: 180px;
+                border-radius: 10px;
+                margin-top: 5px;
+                margin-left: 15px;
+            }
+            .block-2{
+                width: 100%;
+                flex-wrap: wrap;
+                margin-top: 10px;
+                display: flex;
+                .text-2{
+                    width: 50%;
+                    height: 100%;
+                    h4{
+                        font-weight: 200;
+                        margin-left: 15px;
+                    }
+                }
+            }
+            .btn{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                button{
+                    width: 160px;
+                    height: 30px;
+                    background-color: #1534C3;
+                    border-radius: 5px;
+                    border: none;
+                    font-style: 17px;
+                    color: white;
+                    margin:8px auto;
+                }
+            }
+        }
+    }
+}
